@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    
+
 }
 
 
@@ -9,3 +9,10 @@
     transform: scale(1.05);
 }
 
+.responsive-image {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* 1:1 aspect ratio */
+  background-image: url('https://plus.unsplash.com/premium_photo-1661717035654-1bf3568b34c8?q=80&amp;w=...');
+  background-size: cover;
+  background-position: center;
+}
